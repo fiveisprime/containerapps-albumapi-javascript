@@ -4,9 +4,10 @@
  * Module dependencies.
  */
 
-var app = require("../app");
-var debug = require("debug")("containerapps-albumapi-javascript:server");
-var http = require("http");
+import http from "http";
+
+import app from "../app.js";
+
 
 /**
  * Get port from environment and store in Express.

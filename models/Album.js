@@ -47,4 +47,4 @@ const getAlbums = async function () {
   return Promise.resolve(albums);
 };
 
-exports.getAlbums = getAlbums;
+export { getAlbums };
