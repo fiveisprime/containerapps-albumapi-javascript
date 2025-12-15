@@ -1,5 +1,5 @@
 import express from 'express';
-import logger from 'morgan'
+import logger from 'morgan';
 
 import router from "./routes/index.js";
 
